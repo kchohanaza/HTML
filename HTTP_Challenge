@@ -1,0 +1,15 @@
+<!-- Create two forms, one with a get method and one with a post method -->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    </head>
+    
+    <body>
+        <form action="https://formdump.codeinstitute.net/" method="post">
+            <input name="postdata" type="text">
+        </form>
+        <form method="get" target="_blank" action="https://formdump.codeinstitute.net/">
+            <input name="getdata" type="text">
+        </form>
+    </body>
+</html>
