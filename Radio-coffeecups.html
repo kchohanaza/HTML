@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Win a years supply of coffee from Coders Coffeehouse</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+  <p>Complete our survey for your chance to win!</p>
+
+  <hr>
+
+	<form action="https://formdump.codeinstitute.net" method="POST">
+    <div>
+        <label for="name-field">Name</label>
+        <input id="name-field" type="text" name="full_name" placeholder="Your name">
+    </div>
+    <div>
+        <label for="email-field">Email</label>
+        <input id="email-field" type="email" name="email" placeholder="Your email">
+    </div>
+
+    <p>How many cups of coffee do you drink a day?</p>
+    <!--
+      Our form will have two groups of radios for the user to select, one has already been written 
+	  for how many cups a day, and another you will write for how often they visit coders coffeehouse. 
+	  
+      The radios are grouped by their name attribute. So the user can only select one option
+      from the inputs with name="cups-a-day" and one option from the inputs with
+      name="visit-frequency", once you have added these to the code.
+    -->
+
+    <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio">
+    <label for="0-2cups-radio">0 to 2 cups</label>
+
+    <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio">
+    <label for="3-5cups-radio">3 to 5 cups</label>
+
+    <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio">
+    <label for="6-8cups-radio">6 to 8 cups</label>
+
+    <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio">
+    <label for="9plus-cups-radio">9 or more cups</label>
+
+    <p>How often do you visit Coders Coffeehouse?</p>
+
+    <!-- Add your radio group for visit-frequency here -->
+
+        <input type="radio" id="once-a-week" value="once-a-week" name="visit-frequency">
+        <label text="once-a-week" for="once-a-week">once-a-week</label>
+
+        <input type="radio" id="twice-a-week" value="twice-a-week" name="visit-frequency">
+        <label text="twice-a-week" for="twice-a-week">twice-a-week</label>
+
+        <input type="radio" id="once-a-fortnight" value="once-a-fortnight" name="visit-frequency">
+        <label text="Once a fortnight" for="once-a-fortnight">once-a-fortnight</label>
+                
+        <input type="radio" id="not-often" value="not-often" name="visit-frequency">
+        <label text="Not often" for="not-often">Not often</label>
+
+        </label>
+		<p>Which of our coders coffeehouse snacks do you enjoy?</p>
+		<div>
+			<input type="checkbox" id="brownies-checkbox" name="brownies">
+			<label for="brownies-checkbox">Brownies</label>
+		</div>
+		<div>
+			<input type="checkbox" id="cookies-checkbox" name="cookies">
+			<label for="cookies-checkbox">Cookies</label>
+		</div>
+		<div>
+			<input type="checkbox" id="nachos-checkbox" name="nachos">
+			<label for="nachos-checkbox">Nachos</label>
+		</div>
+		<div>
+			<input type="checkbox" id="croissants-checkbox" name="croissants">
+			<label for="croissants-checkbox">Croissants</label>
+		</div>
+		<div>
+			<input type="checkbox" id="scones-checkbox" name="scones">
+			<label for="scones-checkbox">Scones</label>
+		</div>	
+    		<div>
+			<label for="feedback">How can we improve your experience with us?</label>
+			<br>
+			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+		</div>
+
+    <input type="submit" value="Enter prize draw">
+
+	</form>
+	
+</body>
+
+</html>
